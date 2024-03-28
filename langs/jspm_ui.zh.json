@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "关于",
+		"sysMenuSettings": "设置...",
+		"sysMenuLogs": "日志...",
+		"sysMenuQuit": "退出",
+		"sysMenuVersion": "版本",
+		"sysMenuWSSPort": "WSS 端口：[PORT]",
+		"sysMenuWSSWaiting": "WSS 正在等待端口 [PORT] 准备就绪...",
+		"sysMenuWSSDownloadingData": "WSS 正在下载数据...",
+		"sysMenuWSSClosing": "WSS 正在关闭...",
+		"msgWSSInstalledCertsOK": "证书已安装。请重新启动任何打开的浏览器窗口以应用更改。",
+		"msgWSSInstalledCertsError": "尝试安装证书时出错：",
+		"evalStartPrinting": "单击此处开始打印...",
+		"evalStartScanning": "点击此处开始扫描...",
+		"evalStartBidiComm": "单击此处启动 [COMM]...",
+		"lblWebsiteConnect": "此网站正在尝试连接到",
+		"chkDoNotAskAgain": "不要再次询问此站点",
+		"btnWebsiteAllow": "允许",
+		"btnWebsiteBlock": "阻止",
+		"lblWebsiteUnkown": "未知网站",
+		"msgAllowBlockListError": "无法写入允许/阻止列表："
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "站点管理器",
+			"lblSitesManagerAllowedTitle": "具有永久访问权限的授权站点",
+			"lblSitesManagerBlockedTitle": "禁止的网站",
+			"tabSitesManagerAllowed": "允许",
+			"tabSitesManagerBlocked": "已阻止",
+			"btnSitesManagerDelete": "删除",
+			"btnSitesManagerClearAll": "清除全部",
+			"btnSitesManagerAdd": "添加"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "代理",
+			"lblProxyHost": "主机",
+			"lblProxyPort": "端口",
+			"lblProxyAuth": "身份验证",
+			"lblProxyUser": "用户名",
+			"lblProxyPwd": "密码",
+			"chkProxyAutoDetect": "自动检测代理系统设置",
+			"btnProxyClearAll": "清除全部",
+			"btnProxyApply": "应用"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "安全证书",
+			"grpSecCertCACaption": "证书颁发机构 (CA)",
+			"lblSecCertCAPFXFilePath": "PFX 文件路径：",
+			"lblSecCertCAPFXPwd": "PFX 密码：",
+			"btnSecCertCAOpen": "打开",
+			"btnSecCertCAClearAll": "清除全部",
+			"btnSecCertCAApply": "应用",
+			"grpSecCertSANCaption": "其他主题备用名称 (SAN)",
+			"btnSecCertSANDelete": "删除",
+			"btnSecCertSANClearAll": "清除全部",
+			"btnSecCertSANAdd": "添加",
+			"btnSecCertOpenCert": "打开当前服务器证书...",
+			"btnSecCertGenCert": "生成服务器证书..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "高级选项",
+			"grpAdvOptionsPJWCaption": "打印作业观察器",
+			"lblAdvOptionsPJWNumProc": "并发进程数：",
+			"btnAdvOptionsPJWApply": "应用"
+		},
+		"msgInvalidURL": "无效的 URL 地址：",
+		"msgCASettingsSaved": "证书颁发机构 (CA) 设置已保存！",
+		"msgPJWSettingsSaved": "打印作业观察器设置已保存！",
+		"msgProxySettingsSaved": "代理设置已保存！"		
+	}
+}

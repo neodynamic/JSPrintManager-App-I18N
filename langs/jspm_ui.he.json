@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "אודות",
+		"sysMenuSettings": "הגדרות...",
+		"sysMenuLogs": "יומנים...",
+		"sysMenuQuit": "צא",
+		"sysMenuVersion": "גרסה",
+		"sysMenuWSSPort": "יציאת WSS: [PORT]",
+		"sysMenuWSSWaiting": "WSS ממתין שהיציאה [PORT] תהיה מוכנה...",
+		"sysMenuWSSDownloadingData": "WSS מוריד נתונים...",
+		"sysMenuWSSClosing": "WSS נסגר...",
+		"msgWSSInstalledCertsOK": "האישורים הותקנו. אנא הפעל מחדש כל חלון דפדפן פתוח כדי להחיל את השינויים.",
+		"msgWSSInstalledCertsError": "שגיאה בעת ניסיון להתקין אישורים:",
+		"evalStartPrinting": "לחץ כאן כדי להתחיל בהדפסה...",
+		"evalStartScanning": "לחץ כאן כדי להתחיל בסריקה...",
+		"evalStartBidiComm": "לחץ כאן כדי להתחיל את [COMM]...",
+		"lblWebsiteConnect": "אתר זה מנסה להתחבר אל",
+		"chkDoNotAskAgain": "אל תבקש שוב לאתר הזה",
+		"btnWebsiteAllow": "אפשר",
+		"btnWebsiteBlock": "חסום",
+		"lblWebsiteUnkown": "אתר לא ידוע",
+		"msgAllowBlockListError": "לא ניתן לכתוב לרשימות רשות/חסום:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "מנהל אתרים",
+			"lblSitesManagerAllowedTitle": "אתרים מורשים עם גישה קבועה",
+			"lblSitesManagerBlockedTitle": "אתרים אסורים",
+			"tabSitesManagerAllowed": "מותר",
+			"tabSitesManagerBlocked": "חסום",
+			"btnSitesManagerDelete": "מחק",
+			"btnSitesManagerClearAll": "נקה הכל",
+			"btnSitesManagerAdd": "הוסף"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "פרוקסי",
+			"lblProxyHost": "מארח",
+			"lblProxyPort": "יציאה",
+			"lblProxyAuth": "אימות",
+			"lblProxyUser": "שם משתמש",
+			"lblProxyPwd": "סיסמה",
+			"chkProxyAutoDetect": "זיהוי אוטומטי של הגדרות מערכת פרוקסי",
+			"btnProxyClearAll": "נקה הכל",
+			"btnProxyApply": "החל"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "תעודת אבטחה",
+			"grpSecCertCACaption": "רשות אישורים (CA)",
+			"lblSecCertCAPFXFilePath": "נתיב קובץ PFX:",
+			"lblSecCertCAPFXPwd": "סיסמת PFX:",
+			"btnSecCertCAOpen": "פתח",
+			"btnSecCertCAClearAll": "נקה הכל",
+			"btnSecCertCAApply": "החל",
+			"grpSecCertSANCaption": "שמות חלופיים נוספים של נושאים (SAN)",
+			"btnSecCertSANDelete": "מחק",
+			"btnSecCertSANclearAll": "נקה הכל",
+			"btnSecCertSANAdd": "הוסף",
+			"btnSecCertOpenCert": "פתח את אישור השרת הנוכחי...",
+			"btnSecCertGenCert": "צור אישור שרת..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "אפשרויות מתקדמות",
+			"grpAdvOptionsPJWCaption": "שומר עבודות הדפסה",
+			"lblAdvOptionsPJWNumProc": "מספר תהליכים במקביל:",
+			"btnAdvOptionsPJWApply": "החל"
+		},
+		"msgInvalidURL": "כתובת URL לא חוקית:",
+		"msgCASettingsSaved": "הגדרות רשות האישורים (CA) נשמרו!",
+		"msgPJWSettingsSaved": "הגדרות משימות ההדפסה של Watcher נשמרו!",
+		"msgProxySettingsSaved": "הגדרות פרוקסי נשמרו!"		
+	}
+}

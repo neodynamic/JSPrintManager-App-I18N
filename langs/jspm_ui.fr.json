@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "À propos",
+		"sysMenuSettings": "Paramètres...",
+		"sysMenuLogs": "Journaux...",
+		"sysMenuQuit": "Quitter",
+		"sysMenuVersion": "Version",
+		"sysMenuWSSPort": "Port WSS: [PORT]",
+		"sysMenuWSSWaiting": "WSS attend que le port [PORT] soit prêt...",
+		"sysMenuWSSDownloadingData": "WSS télécharge des données...",
+		"sysMenuWSSClosing": "WSS se ferme...",
+		"msgWSSInstalledCertsOK": "Les certificats ont été installés. Veuillez redémarrer n'importe quelle fenêtre de navigateur ouverte pour appliquer les modifications.",
+		"msgWSSInstalledCertsError": "Erreur lors de la tentative d'installation des certificats:",
+		"evalStartPrinting": "Cliquez ici pour lancer l'impression...",
+		"evalStartScanning": "Cliquez ici pour lancer l'analyse...",
+		"evalStartBidiComm": "Cliquez ici pour démarrer [COMM]...",
+		"lblWebsiteConnect": "Ce site Web tente de se connecter",
+		"chkDoNotAskAgain": "Ne plus demander ce site",
+		"btnWebsiteAllow": "Autoriser",
+		"btnWebsiteBlock": "Bloquer",
+		"lblWebsiteUnkown": "Site Web inconnu",
+		"msgAllowBlockListError": "Impossible d'écrire dans les listes d'autorisations/de blocage:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "Gestionnaire de sites",
+			"lblSitesManagerAllowedTitle": "Sites autorisés avec accès permanent",
+			"lblSitesManagerBlockedTitle": "Sites interdits",
+			"tabSitesManagerAllowed": "Autorisé",
+			"tabSitesManagerBlocked": "Bloqué",
+			"btnSitesManagerDelete": "Supprimer",
+			"btnSitesManagerClearAll": "Tout effacer",
+			"btnSitesManagerAdd": "Ajouter"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "Proxy",
+			"lblProxyHost": "Hôte",
+			"lblProxyPort": "Port",
+			"lblProxyAuth": "Authentification",
+			"lblProxyUser": "Nom d'utilisateur",
+			"lblProxyPwd": "Mot de passe",
+			"chkProxyAutoDetect": "Détection automatique des paramètres du système proxy",
+			"btnProxyClearAll": "Tout effacer",
+			"btnProxyApply": "Appliquer"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "Certificat de sécurité",
+			"grpSecCertCACaption": "Autorité de certification (CA)",
+			"lblSecCertCAPFXFilePath": "Chemin du fichier PFX :",
+			"lblSecCertCAPFXPwd": "Mot de passe PFX:",
+			"btnSecCertCAOpen": "Ouvrir",
+			"btnSecCertCAClearAll": "Tout effacer",
+			"btnSecCertCAApply": "Appliquer",
+			"grpSecCertSANCaption": "Noms alternatifs de sujets supplémentaires (SAN)",
+			"btnSecCertSANDelete": "Supprimer",
+			"btnSecCertSANClearAll": "Tout effacer",
+			"btnSecCertSANAdd": "Ajouter",
+			"btnSecCertOpenCert": "Ouvrir le certificat du serveur actuel...",
+			"btnSecCertGenCert": "Générer un certificat de serveur..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "Options avancées",
+			"grpAdvOptionsPJWCaption": "Observateur des travaux d'impression",
+			"lblAdvOptionsPJWNumProc": "Nombre de processus simultanés:",
+			"btnAdvOptionsPJWApply": "Appliquer"
+		},
+		"msgInvalidURL": "Adresse URL invalide :",
+		"msgCASettingsSaved": "Les paramètres de l'autorité de certification (CA) ont été enregistrés!",
+		"msgPJWSettingsSaved": "Les paramètres de Print Jobs Watcher ont été enregistrés!",
+		"msgProxySettingsSaved": "Les paramètres du proxy ont été enregistrés!"		
+	}
+}

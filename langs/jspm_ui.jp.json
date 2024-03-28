@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "概要",
+		"sysMenuSettings": "設定...",
+		"sysMenuLogs": "ログ...",
+		"sysMenuQuit": "終了",
+		"sysMenuVersion": "バージョン",
+		"sysMenuWSSPort": "WSS ポート: [PORT]",
+		"sysMenuWSSWaiting": "WSS はポート [PORT] の準備ができるのを待っています...",
+		"sysMenuWSSDownloadingData": "WSS はデータをダウンロードしています...",
+		"sysMenuWSSClosing": "WSS を閉じています...",
+		"msgWSSInstalledCertsOK": "証明書はインストールされました。変更を適用するには、開いているブラウザ ウィンドウを再起動してください。",
+		"msgWSSInstalledCertsError": "証明書のインストール中にエラーが発生しました:",
+		"evalStartPrinting": "ここをクリックして印刷を開始します...",
+		"evalStartScanning": "ここをクリックしてスキャンを開始します...",
+		"evalStartBidiComm": "ここをクリックして [COMM] を開始します...",
+		"lblWebsiteConnect": "この Web サイトは接続しようとしています",
+		"chkDoNotAskAgain": "このサイトについては二度と質問しないでください",
+		"btnWebsiteAllow": "許可",
+		"btnWebsiteBlock": "ブロック",
+		"lblWebsiteUnkown": "不明な Web サイト",
+		"msgAllowBlockListError": "許可/ブロック リストに書き込めません:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "サイトマネージャー",
+			"lblSitesManagerAllowedTitle": "永続的なアクセスを持つ承認済みサイト",
+			"lblSitesManagerBlockedTitle": "禁止されたサイト",
+			"tabSitesManagerAllowed": "許可",
+			"tabSitesManagerBlocked": "ブロックされました",
+			"btnSitesManagerDelete": "削除",
+			"btnSitesManagerClearAll": "すべてクリア",
+			"btnSitesManagerAdd": "追加"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "プロキシ",
+			"lblProxyHost": "ホスト",
+			"lblProxyPort": "ポート",
+			"lblProxyAuth": "認証",
+			"lblProxyUser": "ユーザー名",
+			"lblProxyPwd": "パスワード",
+			"chkProxyAutoDetect": "プロキシ システム設定を自動検出",
+			"btnProxyClearAll": "すべてクリア",
+			"btnProxyApply": "適用"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "セキュリティ証明書",
+			"grpSecCertCACaption": "認証局 (CA)",
+			"lblSecCertCAPFXFilePath": "PFX ファイル パス:",
+			"lblSecCertCAPFXPwd": "PFX パスワード:",
+			"btnSecCertCAOpen": "開く",
+			"btnSecCertCAClearAll": "すべてクリア",
+			"btnSecCertCAApply": "適用",
+			"grpSecCertSANCaption": "追加のサブジェクト代替名 (SAN)",
+			"btnSecCertSANDelete": "削除",
+			"btnSecCertSANClearAll": "すべてクリア",
+			"btnSecCertSANAdd": "追加",
+			"btnSecCertOpenCert": "現在のサーバー証明書を開く...",
+			"btnSecCertGenCert": "サーバー証明書を生成します..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "詳細オプション",
+			"grpAdvOptionsPJWCaption": "印刷ジョブ ウォッチャー",
+			"lblAdvOptionsPJWNumProc": "同時プロセスの数:",
+			"btnAdvOptionsPJWApply": "適用"
+		},
+		"msgInvalidURL": "無効な URL アドレス:",
+		"msgCASettingsSaved": "認証局 (CA) 設定が保存されました!",
+		"msgPJWSettingsSaved": "印刷ジョブ監視設定が保存されました!",
+		"msgProxySettingsSaved": "プロキシ設定が保存されました!"		
+	}
+}

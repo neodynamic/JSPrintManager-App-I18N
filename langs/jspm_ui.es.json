@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "Acerca de",
+		"sysMenuSettings": "Ajustes...",
+		"sysMenuLogs": "Registros...",
+		"sysMenuQuit": "Salir",
+		"sysMenuVersion": "Versión",
+		"sysMenuWSSPort": "WSS Puerto: [PORT]",
+		"sysMenuWSSWaiting": "WSS está esperando que el puerto [PORT] esté disponible...",
+		"sysMenuWSSDownloadingData": "WSS está descargando datos...",
+		"sysMenuWSSClosing": "WSS se está cerrando...",
+		"msgWSSInstalledCertsOK": "Los certificados han sido instalados. Reinicie cualquier ventana abierta del navegador para aplicar los cambios.",
+		"msgWSSInstalledCertsError": "Error al intentar instalar certificados:",
+		"evalStartPrinting": "Clic aquí para comenzar a imprimir...",
+		"evalStartScanning": "Clic aquí para comenzar a escanear...",
+		"evalStartBidiComm": "Clic aquí para comenzar [COMM]...",
+		"lblWebsiteConnect": "Este sitio web está intentando conectarse a",
+		"chkDoNotAskAgain": "No volver a preguntar para este sitio",
+		"btnWebsiteAllow": "Permitir",
+		"btnWebsiteBlock": "Bloquear",
+		"lblWebsiteUnkown": "Sitio web desconocido",
+		"msgAllowBlockListError": "No se puede escribir en las listas de permitidos/bloqueados:"		
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "Administrador de sitios",
+			"lblSitesManagerAllowedTitle": "Sitios autorizados con acceso permanente",
+			"lblSitesManagerBlockedTitle": "Sitios prohibidos",
+			"tabSitesManagerAllowed": "Permitido",
+			"tabSitesManagerBlocked": "Bloqueado",
+			"btnSitesManagerDelete": "Eliminar",
+			"btnSitesManagerClearAll": "Borrar todo",
+			"btnSitesManagerAdd": "Agregar"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "Proxy",
+			"lblProxyHost": "Dirección",
+			"lblProxyPort": "Puerto",
+			"lblProxyAuth": "Autenticación",
+			"lblProxyUser": "Nombre de usuario",
+			"lblProxyPwd": "Contraseña",
+			"chkProxyAutoDetect": "Detección automática de configuración del sistema proxy",
+			"btnProxyClearAll": "Borrar todo",
+			"btnProxyApply": "Aplicar"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "Certificado de Seguridad",
+			"grpSecCertCACaption": "Autoridad certificadora (CA)",
+			"lblSecCertCAPFXFilePath": "Ruta del archivo PFX:",
+			"lblSecCertCAPFXPwd": "Contraseña PFX:",
+			"btnSecCertCAOpen": "Abrir",
+			"btnSecCertCAClearAll": "Borrar todo",
+			"btnSecCertCAApply": "Aplicar",
+			"grpSecCertSANCaption": "Nombres alternativos de sujetos (SAN) adicionales",
+			"btnSecCertSANDelete": "Eliminar",
+			"btnSecCertSANClearAll": "Borrar todo",
+			"btnSecCertSANAdd": "Agregar",
+			"btnSecCertOpenCert": "Abrir certificado de servidor actual...",
+			"btnSecCertGenCert": "Generar certificado de servidor..."
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "Opciones avanzadas",
+			"grpAdvOptionsPJWCaption": "Monitor de trabajos de impresión",
+			"lblAdvOptionsPJWNumProc": "Número de procesos simultáneos:",
+			"btnAdvOptionsPJWApply": "Aplicar"
+		},
+		"msgInvalidURL": "Dirección URL no válida:",
+		"msgCASettingsSaved": "¡Se guardaron las configuraciones de la Autoridad de Certificación (CA)!",
+		"msgPJWSettingsSaved": "¡Se guardaron las configuraciones del Monitor de trabajos de impresión!",
+		"msgProxySettingsSaved": "¡Se guardaron las configuraciones del Proxy!"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuअबाउट": "अबाउट",
+		"sysMenuSettings": "सेटिंग्स...",
+		"sysMenuLogs": "लॉग्स...",
+		"sysMenuQuit": "छोड़ें",
+		"sysMenuVersion": "संस्करण",
+		"sysMenuWSSPort": "WSS पोर्ट: [PORT]",
+		"sysMenuWSSWaiting": "WSS पोर्ट [PORT] के तैयार होने की प्रतीक्षा कर रहा है...",
+		"sysMenuWSSDownloadingData": "WSS डेटा डाउनलोड कर रहा है...",
+		"sysMenuWSSClosing": "WSS बंद हो रहा है...",
+		"msgWSSInstalledCertsOK": "प्रमाणपत्र स्थापित कर दिए गए हैं। परिवर्तनों को लागू करने के लिए कृपया किसी भी खुली ब्राउज़र विंडो को पुनरारंभ करें।",
+		"msgWSSInstalledCertsError": "प्रमाणपत्र स्थापित करने का प्रयास करते समय त्रुटि:",
+		"evalStartPrinting": "प्रिंटिंग शुरू करने के लिए यहां क्लिक करें...",
+		"evalStartScanning": "स्कैनिंग शुरू करने के लिए यहां क्लिक करें...",
+		"evalStartBidiComm": "[COMM] शुरू करने के लिए यहां क्लिक करें...",
+		"lblWebsiteConnect": "यह वेबसाइट कनेक्ट करने का प्रयास कर रही है",
+		"chkDoNotAskAgain": "इस साइट के लिए दोबारा न पूछें",
+		"btnWebsiteAllow": "अनुमति दें",
+		"btnWebsiteBlock": "ब्लॉक",
+		"lblWebsiteUnkown": "अज्ञात वेबसाइट",
+		"msgAllowBlockListError": "सूचियों को अनुमति/अवरुद्ध करने के लिए नहीं लिखा जा सकता:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "साइट प्रबंधक",
+			"lblSitesManagerAllowedTitle": "स्थायी पहुँच वाली अधिकृत साइटें",
+			"lblSitesManagerBlockedTitle": "प्रतिबंधित साइटें",
+			"tabSitesManagerAllowed": "अनुमति",
+			"tabSitesManagerBlocked": "अवरुद्ध",
+			"btnSitesManagerDelete": "हटाएँ",
+			"btnSitesManagerClearAll": "सभी साफ़ करें",
+			"btnSitesManagerAdd": "जोड़ें"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "प्रॉक्सी",
+			"lblProxyHost": "होस्ट",
+			"lblProxyPort": "पोर्ट",
+			"lblProxyAuth": "प्रमाणीकरण",
+			"lblProxyUser": "उपयोगकर्ता नाम",
+			"lblProxyPwd": "पासवर्ड",
+			"chkProxyAutoDetect": "प्रॉक्सी सिस्टम सेटिंग्स का स्वतः पता लगाएं",
+			"btnProxyClearAll": "सभी साफ़ करें",
+			"btnProxyApply": "लागू करें"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "सुरक्षा प्रमाणपत्र",
+			"grpSecCertCACaption": "प्रमाणपत्र प्राधिकरण (सीए)",
+			"lblSecCertCAPFXFilePath": "PFX फ़ाइल पथ:",
+			"lblSecCertCAPFXPwd": "पीएफएक्स पासवर्ड:",
+			"btnSecCertCAOpen": "खोलें",
+			"btnSecCertCAClearAll": "सभी साफ़ करें",
+			"btnSecCertCAApply": "लागू करें",
+			"grpSecCertSANCaption": "अतिरिक्त विषय वैकल्पिक नाम (SAN)",
+			"btnSecCertSANDelete": "हटाएँ",
+			"btnSecCertSANClearAll": "सभी साफ़ करें",
+			"btnSecCertSANAdd": "जोड़ें",
+			"btnSecCertOpenCert": "वर्तमान सर्वर प्रमाणपत्र खोलें...",
+			"btnSecCertGenCert": "सर्वर प्रमाणपत्र जनरेट करें..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "उन्नत विकल्प",
+			"grpAdvOptionsPJWCaption": "प्रिंट जॉब्स वॉचर",
+			"lblAdvOptionsPJWNumProc": "समवर्ती प्रक्रियाओं की संख्या:",
+			"btnAdvOptionsPJWApply": "लागू करें"
+		},
+		"msgInvalidURL": "अमान्य यूआरएल पता:",
+		"msgCASettingsSavend": "प्रमाणपत्र प्राधिकरण (सीए) सेटिंग्स सहेजी गईं!",
+		"msgPJWSettingsSavend": "प्रिंट जॉब्स वॉचर सेटिंग्स सहेज ली गईं!",
+		"msgProxySettingsSaved": "प्रॉक्सी सेटिंग्स सहेजी गईं!"		
+	}
+}

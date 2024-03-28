@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "About",
+		"sysMenuSettings": "Settings...",
+		"sysMenuLogs": "Logs...",
+		"sysMenuQuit": "Quit",
+		"sysMenuVersion": "Version",
+		"sysMenuWSSPort": "WSS Port: [PORT]",
+		"sysMenuWSSWaiting": "WSS is waiting for port [PORT] to be ready...",
+		"sysMenuWSSDownloadingData": "WSS is downloading data...",
+		"sysMenuWSSClosing": "WSS is closing...",
+		"msgWSSInstalledCertsOK": "The certificates have been installed. Please restart any open browser window to apply the changes.",
+		"msgWSSInstalledCertsError": "Error while trying to install certificates:",
+		"evalStartPrinting": "Click here to start Printing...",
+		"evalStartScanning": "Click here to start Scanning...",
+		"evalStartBidiComm": "Click here to start [COMM]...",
+		"lblWebsiteConnect": "This website is trying to connect to",
+		"chkDoNotAskAgain": "Don't ask again for this site",
+		"btnWebsiteAllow": "Allow",
+		"btnWebsiteBlock": "Block",
+		"lblWebsiteUnkown": "Unknown Website",
+		"msgAllowBlockListError": "Cannot write to Allow/Block Lists:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "Sites Manager",
+			"lblSitesManagerAllowedTitle": "Authorized Sites with permanent access",
+			"lblSitesManagerBlockedTitle": "Banned Sites",
+			"tabSitesManagerAllowed": "Allowed",
+			"tabSitesManagerBlocked": "Blocked",
+			"btnSitesManagerDelete": "Delete",
+			"btnSitesManagerClearAll": "Clear all",
+			"btnSitesManagerAdd": "Add"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "Proxy",
+			"lblProxyHost": "Host",
+			"lblProxyPort": "Port",
+			"lblProxyAuth": "Authentication",
+			"lblProxyUser": "Username",
+			"lblProxyPwd": "Password",
+			"chkProxyAutoDetect": "Auto-detect Proxy System Settings",
+			"btnProxyClearAll": "Clear all",
+			"btnProxyApply": "Apply"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "Security Certificate",
+			"grpSecCertCACaption": "Certificate Authority (CA)",
+			"lblSecCertCAPFXFilePath": "PFX File Path:",
+			"lblSecCertCAPFXPwd": "PFX Password:",
+			"btnSecCertCAOpen": "Open",
+			"btnSecCertCAClearAll": "Clear all",
+			"btnSecCertCAApply": "Apply",
+			"grpSecCertSANCaption": "Additional Subject Alternative Names (SAN)",
+			"btnSecCertSANDelete": "Delete",
+			"btnSecCertSANClearAll": "Clear all",
+			"btnSecCertSANAdd": "Add",
+			"btnSecCertOpenCert": "Open Current Server Certificate...",
+			"btnSecCertGenCert": "Generate Server Certificate..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "Advanced Options",
+			"grpAdvOptionsPJWCaption": "Print Jobs Watcher",
+			"lblAdvOptionsPJWNumProc": "Number of concurrent processes:",
+			"btnAdvOptionsPJWApply": "Apply"
+		},
+		"msgInvalidURL": "Invalid URL address:",
+		"msgCASettingsSaved": "Certificate Authority (CA) settings were saved!",
+		"msgPJWSettingsSaved": "Print Jobs Watcher settings were saved!",
+		"msgProxySettingsSaved": "Proxy settings were saved!"		
+	}
+}

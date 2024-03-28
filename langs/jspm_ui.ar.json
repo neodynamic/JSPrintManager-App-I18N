@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "حول",
+		"sysMenuSettings": "الإعدادات...",
+		"sysMenuLogs": "السجلات...",
+		"sysMenuQuit": "إنهاء",
+		"sysMenuVersion": "الإصدار",
+		"sysMenuWSSPort": "منفذ WSS: [PORT]",
+		"sysMenuWSSWaiting": "WSS ينتظر أن يكون المنفذ [PORT] جاهزًا...",
+		"sysMenuWSSdownloadingData": "يقوم WSS بتنزيل البيانات...",
+		"sysMenuWSSClosing": "يتم إغلاق WSS...",
+		"msgWSInstalledCertsOK": "تم تثبيت الشهادات. الرجاء إعادة تشغيل أي نافذة متصفح مفتوحة لتطبيق التغييرات.",
+		"msgWSInstalledCertsError": "حدث خطأ أثناء محاولة تثبيت الشهادات:",
+		"evalStartPrinting": "انقر هنا لبدء الطباعة...",
+		"evalStartScanning": "انقر هنا لبدء المسح...",
+		"evalStartBidiComm": "انقر هنا لبدء [COMM]...",
+		"lblWebsiteConnect": "يحاول موقع الويب هذا الاتصال به",
+		"chkDoNotAskAgain": "لا تسأل مرة أخرى عن هذا الموقع",
+		"btnWebsiteAllow": "السماح",
+		"btnWebsiteBlock": "حظر",
+		"lblWebsiteUnkown": "موقع ويب غير معروف",
+		"msgAllowBlockListError": "لا يمكن الكتابة إلى قوائم السماح/الحظر:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "مدير المواقع",
+			"lblSitesManagerAllowedTitle": "المواقع المعتمدة ذات الوصول الدائم",
+			"lblSitesManagerBlockedTitle": "المواقع المحظورة",
+			"tabSitesManagerAllowed": "مسموح به",
+			"tabSitesManagerBlocked": "محظور",
+			"btnSitesManagerDelete": "حذف",
+			"btnSitesManagerClearAll": "مسح الكل",
+			"btnSitesManagerAdd": "إضافة"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "الوكيل",
+			"lblProxyHost": "المضيف",
+			"lblProxyPort": "المنفذ",
+			"lblProxyAuth": "المصادقة",
+			"lblProxyUser": "اسم المستخدم",
+			"lblProxyPwd": "كلمة المرور",
+			"chkProxyAutoDetect": "إعدادات نظام الوكيل للكشف التلقائي",
+			"btnProxyClearAll": "مسح الكل",
+			"btnProxyApply": "تطبيق"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "شهادة الأمان",
+			"grpSecCertCAcaption": "المرجع المصدق (CA)",
+			"lblSecCertCAPFXFilePath": "مسار ملف PFX:",
+			"lblSecCertCAPFXPwd": "كلمة مرور PFX:",
+			"btnSecCertCAOpen": "فتح",
+			"btnSecCertCAClearAll": "مسح الكل",
+			"btnSecCertCAApply": "تطبيق",
+			"grpSecCertSANcaption": "الأسماء البديلة للموضوعات الإضافية (SAN)",
+			"btnSecCertSANDelete": "حذف",
+			"btnSecCertSANClearAll": "مسح الكل",
+			"btnSecCertSANAdd": "إضافة",
+			"btnSecCertOpenCert": "افتح شهادة الخادم الحالية...",
+			"btnSecCertGenCert": "إنشاء شهادة الخادم..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "خيارات متقدمة",
+			"grpAdvOptionsPJWcaption": "مراقب مهام الطباعة",
+			"lblAdvOptionsPJWNumProc": "عدد العمليات المتزامنة:",
+			"btnAdvOptionsPJWApply": "تطبيق"
+		},
+		"msgInvalidURL": "عنوان URL غير صالح:",
+		"msgCASettingsSaved": "تم حفظ إعدادات المرجع المصدق (CA)!",
+		"msgPJWSettingsSaved": "تم حفظ إعدادات مراقب مهام الطباعة!",
+		"msgProxySettingsSaved": "تم حفظ إعدادات الوكيل!"		
+	}
+}

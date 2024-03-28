@@ -1,0 +1,72 @@
+{
+	"main":{
+		"sysMenuAbout": "О программе",
+		"sysMenuSettings": "Настройки...",
+		"sysMenuLogs": "Журналы...",
+		"sysMenuQuit": "Выйти",
+		"sysMenuVersion": "Версия",
+		"sysMenuWSSPort": "Порт WSS: [PORT]",
+		"sysMenuWSSWaiting": "WSS ожидает готовности порта [PORT]...",
+		"sysMenuWSSDownloadingData": "WSS загружает данные...",
+		"sysMenuWSSClosing": "WSS закрывается...",
+		"msgWSSInstalledCertsOK": "Сертификаты установлены. Перезапустите любое открытое окно браузера, чтобы применить изменения.",
+		"msgWSInstalledCertsError": "Ошибка при попытке установки сертификатов:",
+		"evalStartPrinting": "Нажмите здесь, чтобы начать печать...",
+		"evalStartScanning": "Нажмите здесь, чтобы начать сканирование...",
+		"evalStartBidiComm": "Нажмите здесь, чтобы запустить [COMM]...",
+		"lblWebsiteConnect": "Этот веб-сайт пытается подключиться",
+		"chkDoNotAskAgain": "Больше не спрашивать об этом сайте",
+		"btnWebsiteAllow": "Разрешить",
+		"btnWebsiteBlock": "Заблокировать",
+		"lblWebsiteUnkown": "Неизвестный веб-сайт",
+		"msgAllowBlockListError": "Невозможно выполнить запись в списки разрешенных/блокированных:"
+	},
+	"settings":{
+		"tabSitesManager": {
+			"lblSitesManagerCaption": "Менеджер сайтов",
+			"lblSitesManagerAllowedTitle": "Авторизованные сайты с постоянным доступом",
+			"lblSitesManagerBlockedTitle": "Заблокированные сайты",
+			"tabSitesManagerAllowed": "Разрешено",
+			"tabSitesManagerBlocked": "Заблокировано",
+			"btnSitesManagerDelete": "Удалить",
+			"btnSitesManagerClearAll": "Очистить все",
+			"btnSitesManagerAdd": "Добавить"
+		},
+		"tabProxy": {
+			"lblProxyCaption": "Прокси",
+			"lblProxyHost": "Хост",
+			"lblProxyPort": "Порт",
+			"lblProxyAuth": "Аутентификация",
+			"lblProxyUser": "Имя пользователя",
+			"lblProxyPwd": "Пароль",
+			"chkProxyAutoDetect": "Автоматическое определение системных настроек прокси",
+			"btnProxyClearAll": "Очистить все",
+			"btnProxyApply": "Применить"
+		},
+		"tabSecCert": {
+			"lblSecCertCaption": "Сертификат безопасности",
+			"grpSecCertCACaption": "Центр сертификации (CA)",
+			"lblSecCertCAPFXFilePath": "Путь к файлу PFX:",
+			"lblSecCertCAPFXPwd": "Пароль PFX:",
+			"btnSecCertCAOpen": "Открыть",
+			"btnSecCertCAClearAll": "Очистить все",
+			"btnSecCertCAApply": "Применить",
+			"grpSecCertSANCaption": "Дополнительные альтернативные имена субъектов (SAN)",
+			"btnSecCertSANDelete": "Удалить",
+			"btnSecCertSANClearAll": "Очистить все",
+			"btnSecCertSANAdd": "Добавить",
+			"btnSecCertOpenCert": "Открыть текущий сертификат сервера...",
+			"btnSecCertGenCert": "Сгенерировать сертификат сервера..."			
+		},
+		"tabAdvOptions": {
+			"lblAdvOptionsCaption": "Дополнительные параметры",
+			"grpAdvOptionsPJWCaption": "Наблюдатель за заданиями печати",
+			"lblAdvOptionsPJWNumProc": "Количество одновременных процессов:",
+			"btnAdvOptionsPJWApply": "Применить"
+		},
+		"msgInvalidURL": "Неверный URL-адрес:",
+		"msgCASettingsSaved": "Настройки центра сертификации (CA) сохранены!",
+		"msgPJWSettingsSaved": "Настройки наблюдателя заданий печати сохранены!",
+		"msgProxySettingsSaved": "Настройки прокси сохранены!"		
+	}
+}
