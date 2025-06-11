@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "אפשרויות מתקדמות",
 			"grpAdvOptionsPJWCaption": "שומר עבודות הדפסה",
 			"lblAdvOptionsPJWNumProc": "מספר תהליכים במקביל:",
-			"btnAdvOptionsPJWApply": "החל"
+			"btnAdvOptionsPJWApply": "החל",
+			"grpAdvOptionsServerCaption": "שרת",
+			"chkUseSSLCaption": "השתמש ב-Secure Sockets Layer (SSL)",
+			"btnAdvOptionsServerApply": "החל"
 		},
 		"msgInvalidURL": "כתובת URL לא חוקית:",
 		"msgCASettingsSaved": "הגדרות רשות האישורים (CA) נשמרו!",
 		"msgPJWSettingsSaved": "הגדרות משימות ההדפסה של Watcher נשמרו!",
-		"msgProxySettingsSaved": "הגדרות פרוקסי נשמרו!"		
+		"msgProxySettingsSaved": "הגדרות פרוקסי נשמרו!",
+		"msgServerSettingsSaved": "הגדרות השרת נשמרו!"		
 	}
 }

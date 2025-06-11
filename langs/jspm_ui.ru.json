@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "Дополнительные параметры",
 			"grpAdvOptionsPJWCaption": "Наблюдатель за заданиями печати",
 			"lblAdvOptionsPJWNumProc": "Количество одновременных процессов:",
-			"btnAdvOptionsPJWApply": "Применить"
+			"btnAdvOptionsPJWApply": "Применить",
+			"grpAdvOptionsServerCaption": "Сервер",
+			"chkUseSSLCaption": "Используйте уровень защищенных сокетов (SSL)",
+			"btnAdvOptionsServerApply": "Применять"
 		},
 		"msgInvalidURL": "Неверный URL-адрес:",
 		"msgCASettingsSaved": "Настройки центра сертификации (CA) сохранены!",
 		"msgPJWSettingsSaved": "Настройки наблюдателя заданий печати сохранены!",
-		"msgProxySettingsSaved": "Настройки прокси сохранены!"		
+		"msgProxySettingsSaved": "Настройки прокси сохранены!",
+		"msgServerSettingsSaved": "Настройки сервера сохранены!"		
 	}
 }

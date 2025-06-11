@@ -41,7 +41,7 @@
 			"lblProxyPwd": "パスワード",
 			"chkProxyAutoDetect": "プロキシ システム設定を自動検出",
 			"btnProxyClearAll": "すべてクリア",
-			"btnProxyApply": "適用"
+			"btnProxyApply": "適用する"
 		},
 		"tabSecCert": {
 			"lblSecCertCaption": "セキュリティ証明書",
@@ -50,7 +50,7 @@
 			"lblSecCertCAPFXPwd": "PFX パスワード:",
 			"btnSecCertCAOpen": "開く",
 			"btnSecCertCAClearAll": "すべてクリア",
-			"btnSecCertCAApply": "適用",
+			"btnSecCertCAApply": "適用する",
 			"grpSecCertSANCaption": "追加のサブジェクト代替名 (SAN)",
 			"btnSecCertSANDelete": "削除",
 			"btnSecCertSANClearAll": "すべてクリア",
@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "詳細オプション",
 			"grpAdvOptionsPJWCaption": "印刷ジョブ ウォッチャー",
 			"lblAdvOptionsPJWNumProc": "同時プロセスの数:",
-			"btnAdvOptionsPJWApply": "適用"
+			"btnAdvOptionsPJWApply": "適用する",
+			"grpAdvOptionsServerCaption": "サーバ",
+			"chkUseSSLCaption": "Secure Sockets Layer (SSL) を使用する",
+			"btnAdvOptionsServerApply": "適用する"
 		},
 		"msgInvalidURL": "無効な URL アドレス:",
 		"msgCASettingsSaved": "認証局 (CA) 設定が保存されました!",
 		"msgPJWSettingsSaved": "印刷ジョブ監視設定が保存されました!",
-		"msgProxySettingsSaved": "プロキシ設定が保存されました!"		
+		"msgProxySettingsSaved": "プロキシ設定が保存されました!",
+		"msgServerSettingsSaved": "サーバー設定が保存されました!"			
 	}
 }

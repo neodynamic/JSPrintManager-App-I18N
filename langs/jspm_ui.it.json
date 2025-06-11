@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "Opzioni avanzate",
 			"grpAdvOptionsPJWCaption": "Osservatore lavori di stampa",
 			"lblAdvOptionsPJWNumProc": "Numero di processi simultanei:",
-			"btnAdvOptionsPJWApply": "Applica"
+			"btnAdvOptionsPJWApply": "Applica",
+			"grpAdvOptionsServerCaption": "Server",
+			"chkUseSSLCaption": "Utilizza Secure Sockets Layer (SSL)",
+			"btnAdvOptionsServerApply": "Applica"
 		},
 		"msgInvalidURL": "Indirizzo URL non valido:",
 		"msgCASettingsSaved": "Le impostazioni dell'autorità di certificazione (CA) sono state salvate!",
 		"msgPJWSettingsSaved": "Le impostazioni di Print Jobs Watcher sono state salvate!",
-		"msgProxySettingsSaved": "Le impostazioni del proxy sono state salvate!"		
+		"msgProxySettingsSaved": "Le impostazioni del proxy sono state salvate!",
+		"msgServerSettingsSaved": "Le impostazioni del server sono state salvate!"			
 	}
 }

@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "उन्नत विकल्प",
 			"grpAdvOptionsPJWCaption": "प्रिंट जॉब्स वॉचर",
 			"lblAdvOptionsPJWNumProc": "समवर्ती प्रक्रियाओं की संख्या:",
-			"btnAdvOptionsPJWApply": "लागू करें"
+			"btnAdvOptionsPJWApply": "लागू करें",
+			"grpAdvOptionsServerCaption": "सर्वर",
+			"chkUseSSLCaption": "सिक्योर सॉकेट लेयर (एसएसएल) का उपयोग करें",
+			"btnAdvOptionsServerApply": "लागू करें"
 		},
 		"msgInvalidURL": "अमान्य यूआरएल पता:",
 		"msgCASettingsSavend": "प्रमाणपत्र प्राधिकरण (सीए) सेटिंग्स सहेजी गईं!",
 		"msgPJWSettingsSavend": "प्रिंट जॉब्स वॉचर सेटिंग्स सहेज ली गईं!",
-		"msgProxySettingsSaved": "प्रॉक्सी सेटिंग्स सहेजी गईं!"		
+		"msgProxySettingsSaved": "प्रॉक्सी सेटिंग्स सहेजी गईं!",
+		"msgServerSettingsSaved": "सर्वर सेटिंग्स सहेज ली गईं!"			
 	}
 }

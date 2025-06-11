@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "خيارات متقدمة",
 			"grpAdvOptionsPJWcaption": "مراقب مهام الطباعة",
 			"lblAdvOptionsPJWNumProc": "عدد العمليات المتزامنة:",
-			"btnAdvOptionsPJWApply": "تطبيق"
+			"btnAdvOptionsPJWApply": "تطبيق",
+			"grpAdvOptionsServerCaption": "الخادم"،
+			"chkUseSSLCaption": "استخدام طبقة المقابس الآمنة (SSL)"،
+			"btnAdvOptionsServerApply": "تطبق"
 		},
 		"msgInvalidURL": "عنوان URL غير صالح:",
 		"msgCASettingsSaved": "تم حفظ إعدادات المرجع المصدق (CA)!",
 		"msgPJWSettingsSaved": "تم حفظ إعدادات مراقب مهام الطباعة!",
-		"msgProxySettingsSaved": "تم حفظ إعدادات الوكيل!"		
+		"msgProxySettingsSaved": "تم حفظ إعدادات الوكيل!",
+		"msgServerSettingsSaved": "تم حفظ إعدادات الخادم!"
 	}
 }

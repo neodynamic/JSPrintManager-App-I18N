@@ -41,7 +41,7 @@
 			"lblProxyPwd": "密码",
 			"chkProxyAutoDetect": "自动检测代理系统设置",
 			"btnProxyClearAll": "清除全部",
-			"btnProxyApply": "应用"
+			"btnProxyApply": "申请"
 		},
 		"tabSecCert": {
 			"lblSecCertCaption": "安全证书",
@@ -50,7 +50,7 @@
 			"lblSecCertCAPFXPwd": "PFX 密码：",
 			"btnSecCertCAOpen": "打开",
 			"btnSecCertCAClearAll": "清除全部",
-			"btnSecCertCAApply": "应用",
+			"btnSecCertCAApply": "申请",
 			"grpSecCertSANCaption": "其他主题备用名称 (SAN)",
 			"btnSecCertSANDelete": "删除",
 			"btnSecCertSANClearAll": "清除全部",
@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "高级选项",
 			"grpAdvOptionsPJWCaption": "打印作业观察器",
 			"lblAdvOptionsPJWNumProc": "并发进程数：",
-			"btnAdvOptionsPJWApply": "应用"
+			"btnAdvOptionsPJWApply": "申请",
+			"grpAdvOptionsServerCaption": "服务器",
+			"chkUseSSLCaption": "使用安全套接字层 (SSL)",
+			"btnAdvOptionsServerApply": "申请"
 		},
 		"msgInvalidURL": "无效的 URL 地址：",
 		"msgCASettingsSaved": "证书颁发机构 (CA) 设置已保存！",
 		"msgPJWSettingsSaved": "打印作业观察器设置已保存！",
-		"msgProxySettingsSaved": "代理设置已保存！"		
+		"msgProxySettingsSaved": "代理设置已保存！",
+		"msgServerSettingsSaved": "服务器设置已保存！"		
 	}
 }

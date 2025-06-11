@@ -62,11 +62,15 @@
 			"lblAdvOptionsCaption": "Opciones avanzadas",
 			"grpAdvOptionsPJWCaption": "Monitor de trabajos de impresión",
 			"lblAdvOptionsPJWNumProc": "Número de procesos simultáneos:",
-			"btnAdvOptionsPJWApply": "Aplicar"
+			"btnAdvOptionsPJWApply": "Aplicar",
+			"grpAdvOptionsServerCaption": "Servidor",
+			"chkUseSSLCaption": "Utilizar la capa de sockets seguros (SSL)",
+			"btnAdvOptionsServerApply": "Aplicar"
 		},
 		"msgInvalidURL": "Dirección URL no válida:",
 		"msgCASettingsSaved": "¡Se guardaron las configuraciones de la Autoridad de Certificación (CA)!",
 		"msgPJWSettingsSaved": "¡Se guardaron las configuraciones del Monitor de trabajos de impresión!",
-		"msgProxySettingsSaved": "¡Se guardaron las configuraciones del Proxy!"
+		"msgProxySettingsSaved": "¡Se guardaron las configuraciones del Proxy!",
+		"msgServerSettingsSaved": "¡Se guardaron las configuraciones del Servidor!"
 	}
 }
